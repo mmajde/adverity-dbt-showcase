@@ -1,1 +1,17 @@
+name: 'my_showcase_project'
+version: '1.0.0'
+config-version: 2
 
+profile: 'adverity' # Adverity will look for this name
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analyses"]
+
+models:
+  my_showcase_project:
+    staging:
+      materialized: view # Staging is usually fast views
+    marts:
+      materialized: table # Final tables for the dashboard
