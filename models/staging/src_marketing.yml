@@ -1,1 +1,9 @@
+version: 1
 
+sources:
+  - name: ad_data
+    database: RAW_DB
+    schema: ADVERITY_SCHEMA
+    tables:
+      - name: ads_insights # Facebook table
+      - name: google_ads   # Google table
