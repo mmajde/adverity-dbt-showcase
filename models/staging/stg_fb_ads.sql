@@ -1,5 +1,5 @@
 select
-    "day" as ad_date,
+    day as ad_date,
     "campaign_name",
     "costs",
     "impressions",
