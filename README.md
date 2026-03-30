@@ -1,1 +1,0 @@
-# adverity-dbt-showcase
