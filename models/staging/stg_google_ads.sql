@@ -6,4 +6,4 @@ select
     clicks as clicks,
     device_type as device,
     'Google' as platform
-from {{ source('ad_data', 'google_ads_GoogleAdsDemo') }}
+from {{ source('ad_data', 'google_ads_1163') }}
