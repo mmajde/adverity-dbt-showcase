@@ -3,7 +3,7 @@ select
     campaign_name,
     costs,
     impressions,
-    "clicks",
+    clicks,
     device_type as device,
     'Facebook' as platform
 from {{ source('ad_data', 'ads_insights_1166') }}
