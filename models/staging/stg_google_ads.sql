@@ -1,9 +1,9 @@
 select
-    Day as ad_date,
+    day as ad_date,
     campaign_name as campaign_name,
-    costs as spend,
+    costs as costs,
     impressions as impressions,
-    Clicks as clicks,
+    clicks as clicks,
     device_type as device,
     'Google' as platform
 from {{ source('ad_data', 'google_ads') }}
