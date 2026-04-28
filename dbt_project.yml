@@ -1,6 +1,0 @@
-name: 'adverity'
-version: '1.0.0'
-models:
-  adverity:
-    testing:
-      +materialized: view
