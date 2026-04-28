@@ -1,6 +1,5 @@
 name: 'adverity'
 version: '1.0.0'
-profile: adverity
 models:
   adverity:
     testing:
